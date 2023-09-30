@@ -2,11 +2,11 @@
     <div class="bg-gray text-black rounded">
 
         <form action="retorno" @submit.prevent>
-            <div class="flex flex-row space-x-5 text-xl mt-5 ">
+            <div class="flex flex-row mr-5 space-x-5 text-xl mt-5 ">
                 <div class="basis-1/2 bg-red-500 rounded py-2 px-4 text-center"
                     style="background-color: rgb(184, 184, 184); ">
-                    <span class="font-bold" for="ropa">({{ ropa }}) </span>
-                    <span class="" for="ropa"> &nbsp;{{ marca }}</span>
+                    <span class="font-bold " for="ropa">({{ ropa }}) </span>
+                    <span class="capitalize" for="ropa"> &nbsp;{{ marca }}</span>
 
                 </div>
                 <div class=" grid grid-cols-5   bg-blue-500 rounded py-2 px-4 text-center">
